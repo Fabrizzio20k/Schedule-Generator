@@ -1,0 +1,3477 @@
+{
+  "CS3051": {
+    "nombre": "Arquitectura de Computadoras",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Obligatorio",
+    "secciones": {
+      "3": {
+        "numero_seccion": "3",
+        "opciones": {
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Williams Valencia, Carlos Eduardo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 14:00 - 16:00",
+              "Mar. 16:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA M301(30)",
+            "vacantes": 30,
+            "matriculados": 0
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Adanaque Infante, Luz Antuanet",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 16:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA A708(44)",
+            "vacantes": 30,
+            "matriculados": 0
+          }
+        }
+      },
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Gonzalez Reaño, Jorge Luis",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 16:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA A801(45)",
+            "vacantes": 30,
+            "matriculados": 0
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Williams Valencia, Carlos Eduardo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 12:00 - 14:00",
+              "Mie. 16:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA M604(30)",
+            "vacantes": 30,
+            "matriculados": 0
+          }
+        }
+      },
+      "5": {
+        "numero_seccion": "5",
+        "opciones": {
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Williams Valencia, Carlos Eduardo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 14:00 - 16:00",
+              "Vie. 16:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA M603(30)",
+            "vacantes": 30,
+            "matriculados": 5
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Gonzalez Reaño, Jorge Luis",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 16:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA A803(45)",
+            "vacantes": 30,
+            "matriculados": 5
+          }
+        }
+      }
+    }
+  },
+  "CS4016": {
+    "nombre": "Computación Gráfica",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Obligatorio",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "laboratorio_02": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "02",
+            "docente": "Marini Monsante, Piero",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 20:00 - 22:00",
+              "Jue. 20:00 - 22:00"
+            ],
+            "ubicacion": "UTEC-BA L507",
+            "vacantes": 22,
+            "matriculados": 2
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Biagioli, Eric Javier",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 10:00 - 12:00"
+            ],
+            "ubicacion": "UTEC-BA A906(44)",
+            "vacantes": 44,
+            "matriculados": 3
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Marini Monsante, Piero",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 18:00 - 20:00",
+              "Mie. 18:00 - 20:00"
+            ],
+            "ubicacion": "UTEC-BA L507",
+            "vacantes": 22,
+            "matriculados": 1
+          }
+        }
+      }
+    }
+  },
+  "CS4052": {
+    "nombre": "Computación Paralela y Distribuida",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Obligatorio",
+    "secciones": {
+      "2": {
+        "numero_seccion": "2",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Fiestas Iquira, Jose Antonio",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 11:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA A706(44)",
+            "vacantes": 44,
+            "matriculados": 3
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Fiestas Iquira, Jose Antonio",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 14:00 - 16:00",
+              "Mie. 11:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA M802(45)",
+            "vacantes": 44,
+            "matriculados": 3
+          }
+        }
+      },
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Fiestas Iquira, Jose Antonio",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 16:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA A905(44)",
+            "vacantes": 43,
+            "matriculados": 0
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Fiestas Iquira, Jose Antonio",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 16:00 - 18:00",
+              "Mar. 16:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA M801(45)",
+            "vacantes": 43,
+            "matriculados": 0
+          }
+        }
+      }
+    }
+  },
+  "CS3014": {
+    "nombre": "Estructura de Datos Avanzados",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Obligatorio",
+    "secciones": {
+      "2": {
+        "numero_seccion": "2",
+        "opciones": {
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Flores Benites, Victor",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 20:00 - 22:00",
+              "Jue. 18:00 - 20:00"
+            ],
+            "ubicacion": "UTEC-BA M802(45)",
+            "vacantes": 45,
+            "matriculados": 2
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Flores Benites, Victor",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 20:00 - 22:00"
+            ],
+            "ubicacion": "UTEC-BA A903(46)",
+            "vacantes": 45,
+            "matriculados": 2
+          }
+        }
+      }
+    }
+  },
+  "CS4053": {
+    "nombre": "Interacción Humano Computador",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Obligatorio",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Chambilla Aquino, Teófilo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 20:00 - 22:00"
+            ],
+            "ubicacion": "UTEC-BA A908(48)",
+            "vacantes": 48,
+            "matriculados": 4
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Chambilla Aquino, Teófilo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 18:00 - 22:00"
+            ],
+            "ubicacion": "UTEC-BA L507",
+            "vacantes": 24,
+            "matriculados": 1
+          },
+          "laboratorio_02": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "02",
+            "docente": "Chambilla Aquino, Teófilo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 18:00 - 22:00"
+            ],
+            "ubicacion": "UTEC-BA L507",
+            "vacantes": 24,
+            "matriculados": 3
+          }
+        }
+      }
+    }
+  },
+  "CS4091": {
+    "nombre": "Investigación en Computación",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Obligatorio",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_virtual_00": {
+            "tipo": "Teoría Virtual",
+            "codigo_subseccion": "00",
+            "docente": "Fiestas Iquira, Jose Antonio",
+            "modalidad": "Sincronico",
+            "horarios": [
+              "Vie. 16:00 - 19:00"
+            ],
+            "ubicacion": "UTEC-BA Virtual 140",
+            "vacantes": 45,
+            "matriculados": 1
+          }
+        }
+      },
+      "2": {
+        "numero_seccion": "2",
+        "opciones": {
+          "teoria_virtual_00": {
+            "tipo": "Teoría Virtual",
+            "codigo_subseccion": "00",
+            "docente": "Fiestas Iquira, Jose Antonio",
+            "modalidad": "Sincronico",
+            "horarios": [
+              "Jue. 13:00 - 16:00"
+            ],
+            "ubicacion": "UTEC-BA Virtual 145",
+            "vacantes": 45,
+            "matriculados": 0
+          }
+        }
+      }
+    }
+  },
+  "CC2104": {
+    "nombre": "Métodos Numéricos",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Obligatorio",
+    "secciones": {
+      "8": {
+        "numero_seccion": "8",
+        "opciones": {
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Perez Cupe, Rosulo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 16:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA M302(60)",
+            "vacantes": 45,
+            "matriculados": 3
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Perez Cupe, Rosulo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 16:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA M804(45)",
+            "vacantes": 45,
+            "matriculados": 3
+          }
+        }
+      },
+      "9": {
+        "numero_seccion": "9",
+        "opciones": {
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Mendoza Montalvo, Jimmy",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Sab. 16:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA M801(45)",
+            "vacantes": 30,
+            "matriculados": 1
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Mendoza Montalvo, Jimmy",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 11:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA M301(30)",
+            "vacantes": 30,
+            "matriculados": 1
+          }
+        }
+      },
+      "7": {
+        "numero_seccion": "7",
+        "opciones": {
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Perez Cupe, Rosulo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Sab. 14:00 - 16:00"
+            ],
+            "ubicacion": "UTEC-BA M803(45)",
+            "vacantes": 45,
+            "matriculados": 5
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Perez Cupe, Rosulo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 18:00 - 20:00"
+            ],
+            "ubicacion": "UTEC-BA M802(45)",
+            "vacantes": 45,
+            "matriculados": 5
+          }
+        }
+      },
+      "13": {
+        "numero_seccion": "13",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Mantari Laureano, Jose Luis",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 09:00 - 11:00"
+            ],
+            "ubicacion": "UTEC-BA M604(30)",
+            "vacantes": 30,
+            "matriculados": 3
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Mantari Laureano, Jose Luis",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 09:00 - 11:00"
+            ],
+            "ubicacion": "UTEC-BA M601(30)",
+            "vacantes": 30,
+            "matriculados": 3
+          }
+        }
+      },
+      "6": {
+        "numero_seccion": "6",
+        "opciones": {
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Mendoza Montalvo, Jimmy",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 14:00 - 16:00"
+            ],
+            "ubicacion": "UTEC-BA M601(30)",
+            "vacantes": 30,
+            "matriculados": 5
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Mendoza Montalvo, Jimmy",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 15:00 - 17:00"
+            ],
+            "ubicacion": "UTEC-BA M604(30)",
+            "vacantes": 30,
+            "matriculados": 5
+          }
+        }
+      },
+      "4": {
+        "numero_seccion": "4",
+        "opciones": {
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Obregon Ramos, Maximo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 18:00 - 20:00"
+            ],
+            "ubicacion": "UTEC-BA M801(45)",
+            "vacantes": 45,
+            "matriculados": 3
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Obregon Ramos, Maximo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 18:00 - 20:00"
+            ],
+            "ubicacion": "UTEC-BA M801(45)",
+            "vacantes": 45,
+            "matriculados": 3
+          }
+        }
+      },
+      "3": {
+        "numero_seccion": "3",
+        "opciones": {
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Pantoja Carhuavilca, Hermes Yesser",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 13:00 - 15:00"
+            ],
+            "ubicacion": "UTEC-BA M804(45)",
+            "vacantes": 45,
+            "matriculados": 3
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Pantoja Carhuavilca, Hermes Yesser",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 14:00 - 16:00"
+            ],
+            "ubicacion": "UTEC-BA M801(45)",
+            "vacantes": 45,
+            "matriculados": 3
+          }
+        }
+      },
+      "2": {
+        "numero_seccion": "2",
+        "opciones": {
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Mendoza Montalvo, Jimmy",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Sab. 13:00 - 15:00"
+            ],
+            "ubicacion": "UTEC-BA M801(45)",
+            "vacantes": 30,
+            "matriculados": 1
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Mendoza Montalvo, Jimmy",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 13:00 - 15:00"
+            ],
+            "ubicacion": "UTEC-BA M603(30)",
+            "vacantes": 30,
+            "matriculados": 1
+          }
+        }
+      },
+      "11": {
+        "numero_seccion": "11",
+        "opciones": {
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Camarena Perez, Victor",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 17:00 - 19:00"
+            ],
+            "ubicacion": "UTEC-BA M602(30)",
+            "vacantes": 30,
+            "matriculados": 2
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Camarena Perez, Victor",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 16:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA M601(30)",
+            "vacantes": 30,
+            "matriculados": 2
+          }
+        }
+      },
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Camarena Perez, Victor",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Sab. 14:00 - 16:00"
+            ],
+            "ubicacion": "UTEC-BA M602(30)",
+            "vacantes": 30,
+            "matriculados": 0
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Camarena Perez, Victor",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 14:00 - 16:00"
+            ],
+            "ubicacion": "UTEC-BA M604(30)",
+            "vacantes": 30,
+            "matriculados": 0
+          }
+        }
+      }
+    }
+  },
+  "CS3033": {
+    "nombre": "Programación Competitiva",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Obligatorio",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Napa Bernuy, Angel Gerardo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 16:00 - 18:00",
+              "Vie. 16:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA M803(45)",
+            "vacantes": 45,
+            "matriculados": 1
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Napa Bernuy, Angel Gerardo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 16:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA A908(48)",
+            "vacantes": 45,
+            "matriculados": 1
+          }
+        }
+      }
+    }
+  },
+  "DS3021": {
+    "nombre": "Análisis Computacional de Datos",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_virtual_00": {
+            "tipo": "Teoría Virtual",
+            "codigo_subseccion": "00",
+            "docente": "Espinoza Melgarejo, Jose Luis",
+            "modalidad": "Sincronico",
+            "horarios": [
+              "Mar. 09:00 - 11:00"
+            ],
+            "ubicacion": "UTEC-BA Virtual 11",
+            "vacantes": 29,
+            "matriculados": 2
+          },
+          "laboratorio_virtual_01": {
+            "tipo": "Laboratorio Virtual",
+            "codigo_subseccion": "01",
+            "docente": "Espinoza Melgarejo, Jose Luis",
+            "modalidad": "Sincronico",
+            "horarios": [
+              "Sab. 09:00 - 11:00",
+              "Jue. 09:00 - 11:00"
+            ],
+            "ubicacion": "UTEC-BA Virtual 111",
+            "vacantes": 29,
+            "matriculados": 2
+          }
+        }
+      }
+    }
+  },
+  "CS5382": {
+    "nombre": "Arquitectura de Software",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Balbuena Palacios, Carlos",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 19:00 - 21:00",
+              "Mie. 19:00 - 21:00"
+            ],
+            "ubicacion": "UTEC-BA M602(30)",
+            "vacantes": 30,
+            "matriculados": 0
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Balbuena Palacios, Carlos",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 08:00 - 10:00"
+            ],
+            "ubicacion": "UTEC-BA A501(30)",
+            "vacantes": 30,
+            "matriculados": 0
+          }
+        }
+      }
+    }
+  },
+  "DS4341": {
+    "nombre": "Big Data",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 20:00 - 22:00",
+              "Sab. 13:00 - 15:00"
+            ],
+            "ubicacion": "UTEC-BA M302(60)",
+            "vacantes": 45,
+            "matriculados": 4
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 19:00 - 21:00"
+            ],
+            "ubicacion": "UTEC-BA M302(60)",
+            "vacantes": 45,
+            "matriculados": 4
+          }
+        }
+      }
+    }
+  },
+  "BI4011": {
+    "nombre": "Bioestadística",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "laboratorio_00": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "00",
+            "docente": "Quispe Gutierrez, Antonio Marty",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Sab. 09:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA M301(30)",
+            "vacantes": 30,
+            "matriculados": 0
+          }
+        }
+      },
+      "2": {
+        "numero_seccion": "2",
+        "opciones": {
+          "laboratorio_00": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "00",
+            "docente": "Quispe Gutierrez, Antonio Marty",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 09:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA M301(30)",
+            "vacantes": 30,
+            "matriculados": 1
+          }
+        }
+      }
+    }
+  },
+  "BI4013": {
+    "nombre": "Bioinformática",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Jaramillo Valverde, Luis Jose",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 16:00 - 20:00"
+            ],
+            "ubicacion": "UTEC-BA M603(30)",
+            "vacantes": 30,
+            "matriculados": 2
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Jaramillo Valverde, Luis Jose",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 18:00 - 20:00"
+            ],
+            "ubicacion": "UTEC-BA M804(45)",
+            "vacantes": 30,
+            "matriculados": 2
+          }
+        }
+      }
+    }
+  },
+  "AM1003": {
+    "nombre": "Biología, Ecología y Recursos Naturales",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "La Torre Cuadros, Maria de los Angeles",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 09:00 - 12:00"
+            ],
+            "ubicacion": "UTEC-BA A908(48)",
+            "vacantes": 30,
+            "matriculados": 2
+          }
+        }
+      }
+    }
+  },
+  "BI4439": {
+    "nombre": "Ciencia y Cocina",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Ratti Parandelli, Alejandra",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 14:00 - 16:00"
+            ],
+            "ubicacion": "UTEC-BA A801(45)",
+            "vacantes": 24,
+            "matriculados": 7
+          },
+          "teoria_01": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "01",
+            "docente": "Travi Antonio, Giulianna",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 17:00 - 19:00"
+            ],
+            "ubicacion": "UTEC-BA L406",
+            "vacantes": 24,
+            "matriculados": 7
+          }
+        }
+      }
+    }
+  },
+  "HH4201": {
+    "nombre": "Conflicto y relaciones comunitarias",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Montoya Alarcon De Hamoir, Sheyla Rosa",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 11:00 - 13:00",
+              "Jue. 10:00 - 11:00"
+            ],
+            "ubicacion": "UTEC-BA A501(30)",
+            "vacantes": 18,
+            "matriculados": 0
+          }
+        }
+      }
+    }
+  },
+  "EL3012": {
+    "nombre": "Control Automático",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Huamanchahua Canchanya, Deyby",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 13:00 - 15:00",
+              "Mar. 15:00 - 17:00"
+            ],
+            "ubicacion": "UTEC-BA A802(45)",
+            "vacantes": 40,
+            "matriculados": 2
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Valcarcel Castillo, Hector Jose",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 18:00 - 22:00"
+            ],
+            "ubicacion": "UTEC-BA L413",
+            "vacantes": 20,
+            "matriculados": 2
+          },
+          "laboratorio_02": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "02",
+            "docente": "Valcarcel Castillo, Hector Jose",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 18:00 - 22:00"
+            ],
+            "ubicacion": "UTEC-BA L413",
+            "vacantes": 20,
+            "matriculados": 0
+          }
+        }
+      },
+      "2": {
+        "numero_seccion": "2",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Huamanchahua Canchanya, Deyby",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 15:00 - 17:00",
+              "Vie. 13:00 - 15:00"
+            ],
+            "ubicacion": "UTEC-BA A1002(44)",
+            "vacantes": 40,
+            "matriculados": 1
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Bautista Cama, Jose Luis Froilan",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 18:00 - 22:00"
+            ],
+            "ubicacion": "UTEC-BA L413",
+            "vacantes": 20,
+            "matriculados": 0
+          },
+          "laboratorio_02": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "02",
+            "docente": "Bautista Cama, Jose Luis Froilan",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 18:00 - 22:00"
+            ],
+            "ubicacion": "UTEC-BA L413",
+            "vacantes": 20,
+            "matriculados": 1
+          }
+        }
+      }
+    }
+  },
+  "CS5371": {
+    "nombre": "Criptografía",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Pazos Ortiz, Jose Carlos",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 08:00 - 10:00"
+            ],
+            "ubicacion": "UTEC-BA M301(30)",
+            "vacantes": 30,
+            "matriculados": 2
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Pazos Ortiz, Jose Carlos",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 08:00 - 10:00",
+              "Mar. 08:00 - 10:00"
+            ],
+            "ubicacion": "UTEC-BA M604(30)",
+            "vacantes": 30,
+            "matriculados": 2
+          }
+        }
+      }
+    }
+  },
+  "CS5364": {
+    "nombre": "Deep Learning",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "2": {
+        "numero_seccion": "2",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Flores Benites, Victor",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 18:00 - 20:00"
+            ],
+            "ubicacion": "UTEC-BA A705(44)",
+            "vacantes": 30,
+            "matriculados": 2
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Flores Benites, Victor",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 19:00 - 21:00",
+              "Vie. 16:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA L210(30)",
+            "vacantes": 30,
+            "matriculados": 2
+          }
+        }
+      },
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Flores Benites, Victor",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 17:00 - 19:00"
+            ],
+            "ubicacion": "UTEC-BA A706(44)",
+            "vacantes": 30,
+            "matriculados": 2
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Flores Benites, Victor",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 17:00 - 19:00",
+              "Jue. 20:00 - 22:00"
+            ],
+            "ubicacion": "UTEC-BA L210(30)",
+            "vacantes": 30,
+            "matriculados": 2
+          }
+        }
+      }
+    }
+  },
+  "HH2204": {
+    "nombre": "Dibujo, Comic e Ilustración Digital",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Sagastegui Heredia, Carla Liliana",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 10:00 - 12:00",
+              "Lun. 10:00 - 11:00"
+            ],
+            "ubicacion": "UTEC-BA A502(15)",
+            "vacantes": 15,
+            "matriculados": 0
+          }
+        }
+      }
+    }
+  },
+  "HH4203": {
+    "nombre": "Discapacidad:Los Retos de la Inclusión",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Hidalgo Wuest, Oscar",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 08:00 - 10:00",
+              "Mar. 08:00 - 09:00"
+            ],
+            "ubicacion": "UTEC-BA A1002(44)",
+            "vacantes": 44,
+            "matriculados": 4
+          }
+        }
+      }
+    }
+  },
+  "MT5001": {
+    "nombre": "Diseño de Sistemas Mecatrónicos",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Jara Alegria, Elvis Omar",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 15:00 - 16:00",
+              "Lun. 08:00 - 10:00"
+            ],
+            "ubicacion": "UTEC-BA L201",
+            "vacantes": 36,
+            "matriculados": 9
+          },
+          "laboratorio_02": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "02",
+            "docente": "MAGALLANES CARDENAS, JOSE RODRIGO",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 18:00 - 22:00"
+            ],
+            "ubicacion": "UTEC-BA L201",
+            "vacantes": 18,
+            "matriculados": 5
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "MAGALLANES CARDENAS, JOSE RODRIGO",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 18:00 - 22:00"
+            ],
+            "ubicacion": "UTEC-BA L201",
+            "vacantes": 18,
+            "matriculados": 4
+          }
+        }
+      }
+    }
+  },
+  "EL3304": {
+    "nombre": "Diseño de Software",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Farfán Madariaga, Jaime Moshe",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 20:00 - 22:00",
+              "Sab. 08:00 - 10:00"
+            ],
+            "ubicacion": "UTEC-BA M601(30)",
+            "vacantes": 24,
+            "matriculados": 1
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Farfán Madariaga, Jaime Moshe",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Sab. 10:00 - 12:00"
+            ],
+            "ubicacion": "UTEC-BA M603(30)",
+            "vacantes": 24,
+            "matriculados": 1
+          }
+        }
+      }
+    }
+  },
+  "EN5402": {
+    "nombre": "Eficiencia Energética Térmica",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Ramos Saravia, José César",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 08:00 - 10:00",
+              "Mie. 08:00 - 10:00"
+            ],
+            "ubicacion": "UTEC-BA A201(18)",
+            "vacantes": 18,
+            "matriculados": 0
+          }
+        }
+      }
+    }
+  },
+  "AD3108": {
+    "nombre": "Emprendedurismo",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "2": {
+        "numero_seccion": "2",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Granda Escajadillo, Kevin André",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 08:00 - 10:00"
+            ],
+            "ubicacion": "UTEC-BA A401(20)",
+            "vacantes": 20,
+            "matriculados": 0
+          },
+          "laboratorio_virtual_01": {
+            "tipo": "Laboratorio Virtual",
+            "codigo_subseccion": "01",
+            "docente": "Granda Escajadillo, Kevin André",
+            "modalidad": "Sincronico",
+            "horarios": [
+              "Vie. 11:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA Virtual 147",
+            "vacantes": 20,
+            "matriculados": 0
+          }
+        }
+      },
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "laboratorio_virtual_01": {
+            "tipo": "Laboratorio Virtual",
+            "codigo_subseccion": "01",
+            "docente": "Granda Escajadillo, Kevin André",
+            "modalidad": "Sincronico",
+            "horarios": [
+              "Vie. 09:00 - 11:00"
+            ],
+            "ubicacion": "UTEC-BA Virtual",
+            "vacantes": 20,
+            "matriculados": 2
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Granda Escajadillo, Kevin André",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 16:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA A401(20)",
+            "vacantes": 20,
+            "matriculados": 2
+          }
+        }
+      }
+    }
+  },
+  "EN3015": {
+    "nombre": "Energía Solar y Termosolar",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Escudero Rodriguez, Ricardo Rolando",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 13:00 - 16:00"
+            ],
+            "ubicacion": "UTEC-BA L203",
+            "vacantes": 24,
+            "matriculados": 1
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Escudero Rodriguez, Ricardo Rolando",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 14:00 - 16:00"
+            ],
+            "ubicacion": "UTEC-BA L203",
+            "vacantes": 24,
+            "matriculados": 1
+          }
+        }
+      }
+    }
+  },
+  "IN2005": {
+    "nombre": "Estadística Aplicada",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "2": {
+        "numero_seccion": "2",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Galarza Geronimo, Orlando Alfredo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 09:00 - 11:00",
+              "Mie. 15:00 - 17:00"
+            ],
+            "ubicacion": "UTEC-BA M303(60)",
+            "vacantes": 35,
+            "matriculados": 1
+          }
+        }
+      },
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Antonini Bova, Claudia Fausta Maura",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 11:00 - 13:00",
+              "Mie. 15:00 - 17:00"
+            ],
+            "ubicacion": "UTEC-BA A701(44)",
+            "vacantes": 35,
+            "matriculados": 1
+          }
+        }
+      }
+    }
+  },
+  "CC2102": {
+    "nombre": "Estadística y Probabilidades II",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Galarza Geronimo, Orlando Alfredo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 16:00 - 19:00"
+            ],
+            "ubicacion": "UTEC-BA M601(30)",
+            "vacantes": 30,
+            "matriculados": 1
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Galarza Geronimo, Orlando Alfredo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 07:00 - 09:00"
+            ],
+            "ubicacion": "UTEC-BA M603(30)",
+            "vacantes": 30,
+            "matriculados": 1
+          }
+        }
+      }
+    }
+  },
+  "BI5318": {
+    "nombre": "Fundamentos de Imágenes Biomédicas",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Crisostomo Romero, Pedro Moises",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 15:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA M303(60)",
+            "vacantes": 30,
+            "matriculados": 2
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Crisostomo Romero, Pedro Moises",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Sab. 16:00 - 20:00"
+            ],
+            "ubicacion": "UTEC-BA M302(60)",
+            "vacantes": 30,
+            "matriculados": 2
+          }
+        }
+      }
+    }
+  },
+  "IN2006": {
+    "nombre": "Fundamentos de Operaciones",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "2": {
+        "numero_seccion": "2",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Gamonal Pajares, Oscar Pablo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 09:00 - 11:00",
+              "Jue. 15:00 - 17:00"
+            ],
+            "ubicacion": "UTEC-BA A902(42)",
+            "vacantes": 42,
+            "matriculados": 2
+          }
+        }
+      },
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Garcia Ramos, Cintya",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 16:00 - 18:00",
+              "Lun. 16:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA A907(44)",
+            "vacantes": 44,
+            "matriculados": 2
+          }
+        }
+      }
+    }
+  },
+  "MT4001": {
+    "nombre": "Fundamentos de Robótica",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "2": {
+        "numero_seccion": "2",
+        "opciones": {
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Lopez Manrique, Jose Alexander",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Sab. 13:00 - 17:00"
+            ],
+            "ubicacion": "UTEC-BA L201",
+            "vacantes": 20,
+            "matriculados": 0
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Callupe Luna, Jhedmar Jhonatan",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 10:00 - 11:00",
+              "Mie. 08:00 - 10:00"
+            ],
+            "ubicacion": "UTEC-BA A801(45)",
+            "vacantes": 40,
+            "matriculados": 1
+          },
+          "laboratorio_02": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "02",
+            "docente": "Lopez Manrique, Jose Alexander",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Sab. 13:00 - 17:00"
+            ],
+            "ubicacion": "UTEC-BA L201",
+            "vacantes": 20,
+            "matriculados": 1
+          }
+        }
+      },
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "laboratorio_02": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "02",
+            "docente": "Lopez Manrique, Jose Alexander",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Sab. 08:00 - 12:00"
+            ],
+            "ubicacion": "UTEC-BA L201",
+            "vacantes": 20,
+            "matriculados": 0
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Lopez Manrique, Jose Alexander",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Sab. 08:00 - 12:00"
+            ],
+            "ubicacion": "UTEC-BA L201",
+            "vacantes": 20,
+            "matriculados": 0
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Callupe Luna, Jhedmar Jhonatan",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 08:00 - 10:00",
+              "Mar. 13:00 - 14:00"
+            ],
+            "ubicacion": "UTEC-BA A901(42)",
+            "vacantes": 40,
+            "matriculados": 0
+          }
+        }
+      }
+    }
+  },
+  "IN2004": {
+    "nombre": "Gestión de Costos",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "2": {
+        "numero_seccion": "2",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Canasas Gil, Oswaldo Manuel",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 14:00 - 16:00",
+              "Lun. 08:00 - 10:00"
+            ],
+            "ubicacion": "UTEC-BA A908(48)",
+            "vacantes": 30,
+            "matriculados": 1
+          }
+        }
+      },
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "De La Puente Maldonado, Jose Gaspar",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 17:00 - 19:00",
+              "Mie. 17:00 - 19:00"
+            ],
+            "ubicacion": "UTEC-BA A803(45)",
+            "vacantes": 30,
+            "matriculados": 4
+          }
+        }
+      }
+    }
+  },
+  "IN3008": {
+    "nombre": "Gestión de la Cadena de Suministros",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "2": {
+        "numero_seccion": "2",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Gamonal Pajares, Oscar Pablo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 09:00 - 11:00",
+              "Mar. 11:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA A901(42)",
+            "vacantes": 42,
+            "matriculados": 2
+          }
+        }
+      },
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Gamonal Pajares, Oscar Pablo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 14:00 - 16:00",
+              "Jue. 07:00 - 09:00"
+            ],
+            "ubicacion": "UTEC-BA A906(44)",
+            "vacantes": 44,
+            "matriculados": 3
+          }
+        }
+      }
+    }
+  },
+  "IN3006": {
+    "nombre": "Gestión de la Calidad",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "2": {
+        "numero_seccion": "2",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Gallegos Chocce, Alejandro",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 16:00 - 18:00",
+              "Mar. 08:00 - 10:00"
+            ],
+            "ubicacion": "UTEC-BA A702(44)",
+            "vacantes": 44,
+            "matriculados": 1
+          }
+        }
+      },
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Garcia Ramos, Cintya",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 14:00 - 16:00",
+              "Lun. 14:00 - 16:00"
+            ],
+            "ubicacion": "UTEC-BA A705(44)",
+            "vacantes": 44,
+            "matriculados": 1
+          }
+        }
+      }
+    }
+  },
+  "CS5384": {
+    "nombre": "Gestión en Software",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 16:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA M602(30)",
+            "vacantes": 28,
+            "matriculados": 1
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 14:00 - 16:00",
+              "Jue. 17:00 - 19:00"
+            ],
+            "ubicacion": "UTEC-BA M603(30)",
+            "vacantes": 28,
+            "matriculados": 1
+          }
+        }
+      }
+    }
+  },
+  "HH4202": {
+    "nombre": "Historia de la Tecnología",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "De Leo Martinez, Andrés",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 16:00 - 18:00",
+              "Lun. 12:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA A904(44)",
+            "vacantes": 44,
+            "matriculados": 4
+          }
+        }
+      }
+    }
+  },
+  "IN3005": {
+    "nombre": "Ingeniería Financiera",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "2": {
+        "numero_seccion": "2",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Zuñiga Guerrero, Vicente Mohamed",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 17:00 - 19:00",
+              "Lun. 17:00 - 19:00"
+            ],
+            "ubicacion": "UTEC-BA A801(45)",
+            "vacantes": 45,
+            "matriculados": 1
+          }
+        }
+      },
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Cornillier, Fabien Yves Paul",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 12:00 - 14:00",
+              "Mar. 12:00 - 14:00"
+            ],
+            "ubicacion": "UTEC-BA A905(44)",
+            "vacantes": 44,
+            "matriculados": 4
+          }
+        }
+      }
+    }
+  },
+  "ME3017": {
+    "nombre": "Ingeniería de mantenimiento",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Orihuela Munive, Vanessa",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 08:00 - 10:00",
+              "Mie. 10:00 - 12:00"
+            ],
+            "ubicacion": "UTEC-BA A708(44)",
+            "vacantes": 44,
+            "matriculados": 1
+          }
+        }
+      }
+    }
+  },
+  "GI3201": {
+    "nombre": "Innovación y desarrollo de productos",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_virtual_01": {
+            "tipo": "Teoría Virtual",
+            "codigo_subseccion": "01",
+            "docente": "Gutierrez Zevallos, Cristian",
+            "modalidad": "Sincronico",
+            "horarios": [
+              "Lun. 09:00 - 10:00"
+            ],
+            "ubicacion": "UTEC-BA Virtual 111",
+            "vacantes": 30,
+            "matriculados": 3
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Gutierrez Zevallos, Cristian",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 12:00 - 14:00"
+            ],
+            "ubicacion": "UTEC-BA A203(30)",
+            "vacantes": 30,
+            "matriculados": 3
+          }
+        }
+      }
+    }
+  },
+  "EL3301": {
+    "nombre": "Instrumentación Industrial",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "laboratorio_03": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "03",
+            "docente": "Cespedes Duran, Axel Eliam",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 14:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA L415",
+            "vacantes": 11,
+            "matriculados": 0
+          },
+          "laboratorio_04": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "04",
+            "docente": "Cespedes Duran, Axel Eliam",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 14:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA L415",
+            "vacantes": 11,
+            "matriculados": 0
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Aranda Egusquiza, Sergio Rafael",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 10:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA A707(44)",
+            "vacantes": 44,
+            "matriculados": 2
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Garcia Zevallos, Luis Enrique",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 18:00 - 22:00"
+            ],
+            "ubicacion": "UTEC-BA L415",
+            "vacantes": 11,
+            "matriculados": 1
+          },
+          "laboratorio_02": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "02",
+            "docente": "Garcia Zevallos, Luis Enrique",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 18:00 - 22:00"
+            ],
+            "ubicacion": "UTEC-BA L415",
+            "vacantes": 11,
+            "matriculados": 1
+          }
+        }
+      }
+    }
+  },
+  "EL3302": {
+    "nombre": "Introducción a Cognitive Computing",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Farfán Madariaga, Jaime Moshe",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 18:00 - 20:00"
+            ],
+            "ubicacion": "UTEC-BA A905(44)",
+            "vacantes": 30,
+            "matriculados": 1
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Farfán Madariaga, Jaime Moshe",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 18:00 - 21:00"
+            ],
+            "ubicacion": "UTEC-BA A905(44)",
+            "vacantes": 30,
+            "matriculados": 1
+          }
+        }
+      }
+    }
+  },
+  "AM2002": {
+    "nombre": "Introducción a SIG y Cartografía",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Vereau Miranda, Edmundo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 16:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA M801(45)",
+            "vacantes": 30,
+            "matriculados": 5
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Vereau Miranda, Edmundo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 17:00 - 19:00"
+            ],
+            "ubicacion": "UTEC-BA M604(30)",
+            "vacantes": 30,
+            "matriculados": 5
+          }
+        }
+      }
+    }
+  },
+  "EL3014": {
+    "nombre": "Introducción a Sistemas Embebidos",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "2": {
+        "numero_seccion": "2",
+        "opciones": {
+          "laboratorio_02": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "02",
+            "docente": "Patiño Ortega, Giancarlo (Asistente de enseñanza senior)",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Sab. 12:00 - 16:00"
+            ],
+            "ubicacion": "UTEC-BA L414",
+            "vacantes": 22,
+            "matriculados": 1
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Camacho Jiménez, Francisco José",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 13:00 - 15:00",
+              "Vie. 15:00 - 17:00"
+            ],
+            "ubicacion": "UTEC-BA A706(44)",
+            "vacantes": 44,
+            "matriculados": 1
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Nuñovero Cisneros, Nicolas Jose (Asistente de Enseñanza Senior)",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 16:00 - 20:00"
+            ],
+            "ubicacion": "UTEC-BA L201",
+            "vacantes": 22,
+            "matriculados": 0
+          }
+        }
+      },
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Nuñovero Cisneros, Nicolas Jose (Asistente de Enseñanza Senior)",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 16:00 - 20:00"
+            ],
+            "ubicacion": "UTEC-BA L201",
+            "vacantes": 21,
+            "matriculados": 1
+          },
+          "laboratorio_02": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "02",
+            "docente": "Patiño Ortega, Giancarlo (Asistente de enseñanza senior)",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Sab. 12:00 - 16:00"
+            ],
+            "ubicacion": "UTEC-BA L414",
+            "vacantes": 21,
+            "matriculados": 2
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Tarrillo Olano, Jimmy Fernando",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 10:00 - 12:00",
+              "Lun. 11:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA A901(42)",
+            "vacantes": 42,
+            "matriculados": 3
+          }
+        }
+      }
+    }
+  },
+  "IS1000": {
+    "nombre": "Introducción a Sistemas de Información",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "TENORIO GONZALES, CANDY VERONICA",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 08:00 - 09:00"
+            ],
+            "ubicacion": "UTEC-BA A702(44)",
+            "vacantes": 42,
+            "matriculados": 4
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "TENORIO GONZALES, CANDY VERONICA",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 11:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA M803(45)",
+            "vacantes": 42,
+            "matriculados": 4
+          }
+        }
+      }
+    }
+  },
+  "AM1001": {
+    "nombre": "Introducción a la Ingeniería Ambiental",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Delgado Villanueva, Kiko Alexi",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 11:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA A702(44)",
+            "vacantes": 40,
+            "matriculados": 9
+          }
+        }
+      }
+    }
+  },
+  "BI5321": {
+    "nombre": "Introducción a la Ingeniería Clínica",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Franco Salinas, Joana Cristina",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 14:00 - 16:00",
+              "Sab. 07:00 - 09:00"
+            ],
+            "ubicacion": "UTEC-BA A601(28)",
+            "vacantes": 28,
+            "matriculados": 2
+          }
+        }
+      }
+    }
+  },
+  "ME3016": {
+    "nombre": "Introducción a la Ingeniería de Minas",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_virtual_00": {
+            "tipo": "Teoría Virtual",
+            "codigo_subseccion": "00",
+            "docente": "Sanchez Sandoval, Juan",
+            "modalidad": "Sincronico",
+            "horarios": [
+              "Lun. 18:00 - 20:00",
+              "Vie. 16:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA Virtual 119",
+            "vacantes": 50,
+            "matriculados": 6
+          }
+        }
+      }
+    }
+  },
+  "EL4013": {
+    "nombre": "Introducción a las redes de computadoras",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Ramirez Horna, Flavio Cesar",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 19:00 - 22:00"
+            ],
+            "ubicacion": "UTEC-BA A706(44)",
+            "vacantes": 24,
+            "matriculados": 1
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Ramirez Horna, Flavio Cesar",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 18:00 - 22:00"
+            ],
+            "ubicacion": "UTEC-BA L409",
+            "vacantes": 24,
+            "matriculados": 1
+          }
+        }
+      }
+    }
+  },
+  "IQ4222": {
+    "nombre": "Introducción a los Sistemas de Reacción Catalíticos",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Figueroa Jachilla, Vanessa",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 19:00 - 22:00"
+            ],
+            "ubicacion": "UTEC-BA M804(45)",
+            "vacantes": 12,
+            "matriculados": 2
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Manrique Olortegui, Herbert Jhordy",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 12:00 - 16:00"
+            ],
+            "ubicacion": "UTEC-BA L403",
+            "vacantes": 12,
+            "matriculados": 2
+          }
+        }
+      }
+    }
+  },
+  "HH2202": {
+    "nombre": "Introducción al Patrimonio Cultural",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Alexandrino Ocaña, Grace Eliana",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 09:00 - 11:00",
+              "Mar. 10:00 - 11:00"
+            ],
+            "ubicacion": "UTEC-BA A201(18)",
+            "vacantes": 15,
+            "matriculados": 2
+          }
+        }
+      }
+    }
+  },
+  "HH2207": {
+    "nombre": "Introducción al Quechua",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Ramirez Herrera, Victor Gonzalo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 08:00 - 10:00",
+              "Jue. 08:00 - 09:00"
+            ],
+            "ubicacion": "UTEC-BA A101(36)",
+            "vacantes": 30,
+            "matriculados": 3
+          }
+        }
+      },
+      "2": {
+        "numero_seccion": "2",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Ramirez Herrera, Victor Gonzalo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 08:00 - 09:00",
+              "Vie. 08:00 - 10:00"
+            ],
+            "ubicacion": "UTEC-BA A101(36)",
+            "vacantes": 30,
+            "matriculados": 3
+          }
+        }
+      }
+    }
+  },
+  "IN2003": {
+    "nombre": "Investigación de Operaciones I: Modelos Determinísticos",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "2": {
+        "numero_seccion": "2",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Flores Luyo, Luis Ernesto",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 09:00 - 11:00",
+              "Mie. 11:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA A803(45)",
+            "vacantes": 35,
+            "matriculados": 1
+          }
+        }
+      },
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Cornillier, Fabien Yves Paul",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 10:00 - 12:00",
+              "Mar. 10:00 - 12:00"
+            ],
+            "ubicacion": "UTEC-BA A705(44)",
+            "vacantes": 35,
+            "matriculados": 3
+          }
+        }
+      }
+    }
+  },
+  "IN4301": {
+    "nombre": "Marketing Analytics",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_virtual_00": {
+            "tipo": "Teoría Virtual",
+            "codigo_subseccion": "00",
+            "docente": "Tapia Millones, Adolfo Francisco",
+            "modalidad": "Sincronico",
+            "horarios": [
+              "Mie. 08:00 - 09:00",
+              "Sab. 09:00 - 12:00"
+            ],
+            "ubicacion": "UTEC-BA Virtual 12",
+            "vacantes": 30,
+            "matriculados": 9
+          }
+        }
+      }
+    }
+  },
+  "MT4003": {
+    "nombre": "Mecanismos y Transmisión de Movimiento",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "2": {
+        "numero_seccion": "2",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Flores Alvarez, Pedro alonso",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 13:00 - 15:00",
+              "Mar. 11:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA A203(30)",
+            "vacantes": 25,
+            "matriculados": 2
+          }
+        }
+      },
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Jara Alegria, Elvis Omar",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 17:00 - 19:00",
+              "Mar. 11:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA A802(45)",
+            "vacantes": 44,
+            "matriculados": 1
+          }
+        }
+      }
+    }
+  },
+  "EN5403": {
+    "nombre": "Mercados e incentivos de Carbono",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Pinto Cieza, Lucila",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 19:00 - 21:00",
+              "Vie. 19:00 - 21:00"
+            ],
+            "ubicacion": "UTEC-BA A901(42)",
+            "vacantes": 24,
+            "matriculados": 2
+          }
+        }
+      }
+    }
+  },
+  "BI5319": {
+    "nombre": "Nanotecnología",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Flores Daorta, Sthy Warren",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 18:00 - 22:00"
+            ],
+            "ubicacion": "UTEC-BA L501",
+            "vacantes": 20,
+            "matriculados": 0
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Flores Daorta, Sthy Warren",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 19:00 - 22:00"
+            ],
+            "ubicacion": "UTEC-BA A602(24)",
+            "vacantes": 20,
+            "matriculados": 0
+          }
+        }
+      }
+    }
+  },
+  "DS2011": {
+    "nombre": "Optimización",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_virtual_00": {
+            "tipo": "Teoría Virtual",
+            "codigo_subseccion": "00",
+            "docente": "Gutierrez Alva, Julio",
+            "modalidad": "Sincronico",
+            "horarios": [
+              "Mar. 11:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA Virtual 131",
+            "vacantes": 45,
+            "matriculados": 3
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Gutierrez Alva, Julio",
+            "modalidad": "Sincronico",
+            "horarios": [
+              "Jue. 09:00 - 11:00",
+              "Mie. 07:00 - 09:00"
+            ],
+            "ubicacion": "UTEC-BA Virtual",
+            "vacantes": 45,
+            "matriculados": 3
+          }
+        }
+      }
+    }
+  },
+  "CI3091": {
+    "nombre": "Planeamiento de Sistemas Urbanos",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "2": {
+        "numero_seccion": "2",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Liy Lion, Roger Daniel",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 17:00 - 18:00",
+              "Mie. 15:00 - 17:00"
+            ],
+            "ubicacion": "UTEC-BA A901(42)",
+            "vacantes": 42,
+            "matriculados": 3
+          }
+        }
+      },
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Stiglich Labarthe, Matteo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 09:00 - 10:00",
+              "Mar. 11:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA A905(44)",
+            "vacantes": 42,
+            "matriculados": 0
+          }
+        }
+      }
+    }
+  },
+  "IN3012": {
+    "nombre": "Planificación y Control de Operaciones",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "2": {
+        "numero_seccion": "2",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Gamonal Pajares, Oscar Pablo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 11:00 - 13:00",
+              "Jue. 11:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA A904(44)",
+            "vacantes": 44,
+            "matriculados": 2
+          }
+        }
+      },
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Gonzalez Carpio, George Jessus",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 18:00 - 20:00",
+              "Mar. 18:00 - 20:00"
+            ],
+            "ubicacion": "UTEC-BA A801(45)",
+            "vacantes": 45,
+            "matriculados": 4
+          }
+        }
+      }
+    }
+  },
+  "CS5363": {
+    "nombre": "Planificación y Toma de Decisiones en IA",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Soriano Vargas, Aurea Rossy",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 11:00 - 13:00",
+              "Mar. 11:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA L208(24)",
+            "vacantes": 24,
+            "matriculados": 5
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Soriano Vargas, Aurea Rossy",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 11:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA A203(30)",
+            "vacantes": 24,
+            "matriculados": 5
+          }
+        }
+      }
+    }
+  },
+  "EL5313": {
+    "nombre": "Procesamiento de Imágenes Digitales",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Crisostomo Romero, Pedro Moises",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 18:00 - 20:00",
+              "Jue. 18:00 - 20:00"
+            ],
+            "ubicacion": "UTEC-BA M601(30)",
+            "vacantes": 30,
+            "matriculados": 5
+          }
+        }
+      }
+    }
+  },
+  "ME3013": {
+    "nombre": "Procesos de manufactura",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Nunura Nunura, Cesar Rolando",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 18:00 - 20:00"
+            ],
+            "ubicacion": "UTEC-BA A704(44)",
+            "vacantes": 25,
+            "matriculados": 2
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Nunura Nunura, Cesar Rolando",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 15:00 - 19:00"
+            ],
+            "ubicacion": "UTEC-BA L101",
+            "vacantes": 25,
+            "matriculados": 2
+          }
+        }
+      }
+    }
+  },
+  "EN5303": {
+    "nombre": "Protección de sistemas eléctricos",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Vera Pomalaza, Rafael Ivan",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 09:00 - 11:00",
+              "Lun. 11:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA L408",
+            "vacantes": 24,
+            "matriculados": 1
+          }
+        }
+      }
+    }
+  },
+  "IN5309": {
+    "nombre": "Proyecto de Desafío Empresarial",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Garcia Ramos, Cintya",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 18:00 - 20:00",
+              "Jue. 16:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA A101(36)",
+            "vacantes": 15,
+            "matriculados": 0
+          }
+        }
+      }
+    }
+  },
+  "CS5383": {
+    "nombre": "Pruebas y Verificación de Software",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Chambilla Aquino, Teófilo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 18:00 - 20:00"
+            ],
+            "ubicacion": "UTEC-BA A702(44)",
+            "vacantes": 30,
+            "matriculados": 1
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Chambilla Aquino, Teófilo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 14:00 - 16:00",
+              "Mar. 16:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA M604(30)",
+            "vacantes": 30,
+            "matriculados": 1
+          }
+        }
+      }
+    }
+  },
+  "EL5309": {
+    "nombre": "Reconocimiento de Patrones de Señales Biomédicas",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 19:00 - 22:00"
+            ],
+            "ubicacion": "UTEC-BA A201(18)",
+            "vacantes": 12,
+            "matriculados": 1
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 18:00 - 22:00"
+            ],
+            "ubicacion": "UTEC-BA L414",
+            "vacantes": 12,
+            "matriculados": 1
+          }
+        }
+      }
+    }
+  },
+  "MT5306": {
+    "nombre": "Robótica industrial",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "laboratorio_02": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "02",
+            "docente": "Cabrera Donayre, Rony Martin",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 13:00 - 17:00"
+            ],
+            "ubicacion": "UTEC-BA L201",
+            "vacantes": 12,
+            "matriculados": 4
+          },
+          "laboratorio_05": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "05",
+            "docente": "Garcia Zevallos, Luis Enrique",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 09:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA L201",
+            "vacantes": 12,
+            "matriculados": 4
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Garcia Zevallos, Luis Enrique",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 16:00 - 18:00",
+              "Mar. 13:00 - 14:00"
+            ],
+            "ubicacion": "UTEC-BA A904(44)",
+            "vacantes": 36,
+            "matriculados": 8
+          },
+          "laboratorio_04": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "04",
+            "docente": "Garcia Zevallos, Luis Enrique",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 09:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA L201",
+            "vacantes": 12,
+            "matriculados": 0
+          }
+        }
+      }
+    }
+  },
+  "IN3004": {
+    "nombre": "Salud y Seguridad Ocupacional",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "2": {
+        "numero_seccion": "2",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Velazco Cespedez, Ursula Angelica",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 18:00 - 20:00",
+              "Jue. 17:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA A904(44)",
+            "vacantes": 44,
+            "matriculados": 5
+          }
+        }
+      },
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Velazco Cespedez, Ursula Angelica",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 18:00 - 20:00",
+              "Mar. 17:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA A906(44)",
+            "vacantes": 44,
+            "matriculados": 9
+          }
+        }
+      }
+    }
+  },
+  "BI4430": {
+    "nombre": "Seminarios en Astrobiología",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Valdivia Silva, Julio Ernesto",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 08:00 - 10:00"
+            ],
+            "ubicacion": "UTEC-BA A501(30)",
+            "vacantes": 20,
+            "matriculados": 0
+          }
+        }
+      }
+    }
+  },
+  "MT3001": {
+    "nombre": "Sensores y Actuadores",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Miranda Barrueto, Renato Alonso",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 14:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA L206",
+            "vacantes": 15,
+            "matriculados": 0
+          },
+          "laboratorio_02": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "02",
+            "docente": "Miranda Barrueto, Renato Alonso",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 14:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA L206",
+            "vacantes": 15,
+            "matriculados": 1
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Garcia Zevallos, Luis Enrique",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 11:00 - 13:00",
+              "Lun. 15:00 - 16:00"
+            ],
+            "ubicacion": "UTEC-BA M302(60)",
+            "vacantes": 60,
+            "matriculados": 4
+          },
+          "laboratorio_04": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "04",
+            "docente": "Palomino Barzola, Styven (Asistente de enseñanza senior)",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Sab. 13:00 - 17:00"
+            ],
+            "ubicacion": "UTEC-BA L206",
+            "vacantes": 15,
+            "matriculados": 1
+          },
+          "laboratorio_03": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "03",
+            "docente": "Bautista Cama, Jose Luis Froilan",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Sab. 08:00 - 12:00"
+            ],
+            "ubicacion": "UTEC-BA L206",
+            "vacantes": 15,
+            "matriculados": 2
+          }
+        }
+      },
+      "2": {
+        "numero_seccion": "2",
+        "opciones": {
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Bautista Cama, Jose Luis Froilan",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Vie. 18:00 - 22:00"
+            ],
+            "ubicacion": "UTEC-BA L206",
+            "vacantes": 15,
+            "matriculados": 1
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Garcia Zevallos, Luis Enrique",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 08:00 - 11:00"
+            ],
+            "ubicacion": "UTEC-BA A402(19)",
+            "vacantes": 15,
+            "matriculados": 1
+          }
+        }
+      }
+    }
+  },
+  "MT4002": {
+    "nombre": "Sistemas Hidráulicos y Neumáticos",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "laboratorio_04": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "04",
+            "docente": "Palomino Barzola, Styven (Asistente de enseñanza senior)",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Sab. 13:00 - 17:00"
+            ],
+            "ubicacion": "UTEC-BA L206",
+            "vacantes": 15,
+            "matriculados": 0
+          },
+          "laboratorio_03": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "03",
+            "docente": "Cabrera Donayre, Rony Martin",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 13:00 - 17:00"
+            ],
+            "ubicacion": "UTEC-BA L206",
+            "vacantes": 15,
+            "matriculados": 0
+          },
+          "laboratorio_02": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "02",
+            "docente": "Cabrera Donayre, Rony Martin",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 13:00 - 17:00"
+            ],
+            "ubicacion": "UTEC-BA L206",
+            "vacantes": 15,
+            "matriculados": 0
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Aranda Egusquiza, Sergio Rafael",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 14:00 - 17:00"
+            ],
+            "ubicacion": "UTEC-BA M303(60)",
+            "vacantes": 60,
+            "matriculados": 0
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Bautista Cama, Jose Luis Froilan",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Sab. 08:00 - 12:00"
+            ],
+            "ubicacion": "UTEC-BA L206",
+            "vacantes": 15,
+            "matriculados": 0
+          }
+        }
+      },
+      "2": {
+        "numero_seccion": "2",
+        "opciones": {
+          "laboratorio_02": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "02",
+            "docente": "Bautista Cama, Jose Luis Froilan",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 18:00 - 22:00"
+            ],
+            "ubicacion": "UTEC-BA L206",
+            "vacantes": 15,
+            "matriculados": 2
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Bautista Cama, Jose Luis Froilan",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 18:00 - 22:00"
+            ],
+            "ubicacion": "UTEC-BA L206",
+            "vacantes": 15,
+            "matriculados": 1
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Cabrera Donayre, Rony Martin",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 10:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA M603(30)",
+            "vacantes": 30,
+            "matriculados": 3
+          }
+        }
+      }
+    }
+  },
+  "EN3018": {
+    "nombre": "Smart Grid",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Ramirez Quiroz, Elmer Hernán",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 08:00 - 10:00"
+            ],
+            "ubicacion": "UTEC-BA L202",
+            "vacantes": 24,
+            "matriculados": 5
+          },
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Ramirez Quiroz, Elmer Hernán",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 08:00 - 10:00"
+            ],
+            "ubicacion": "UTEC-BA L202",
+            "vacantes": 24,
+            "matriculados": 5
+          }
+        }
+      }
+    }
+  },
+  "EN5302": {
+    "nombre": "Subestaciones y líneas de transmisión",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Vera Pomalaza, Rafael Ivan",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 14:00 - 16:00",
+              "Mie. 14:00 - 16:00"
+            ],
+            "ubicacion": "UTEC-BA L202",
+            "vacantes": 24,
+            "matriculados": 3
+          }
+        }
+      }
+    }
+  },
+  "BI4435": {
+    "nombre": "Tópicos en Bioética",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Cazorla Salinas, Pedro Juan",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 16:00 - 18:00"
+            ],
+            "ubicacion": "UTEC-BA M301(30)",
+            "vacantes": 30,
+            "matriculados": 3
+          }
+        }
+      }
+    }
+  },
+  "MT5311": {
+    "nombre": "Tópicos en Ingeniería Mecatrónica",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mar. 18:00 - 20:00",
+              "Vie. 18:00 - 20:00"
+            ],
+            "ubicacion": "UTEC-BA A402(19)",
+            "vacantes": 19,
+            "matriculados": 6
+          }
+        }
+      }
+    }
+  },
+  "EL5308": {
+    "nombre": "Tópicos sobre procesamiento de señales biológicas",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Michhue Vela, Gabriel Percy",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Mie. 13:00 - 16:00"
+            ],
+            "ubicacion": "UTEC-BA A401(20)",
+            "vacantes": 12,
+            "matriculados": 1
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Michhue Vela, Gabriel Percy",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 09:00 - 13:00"
+            ],
+            "ubicacion": "UTEC-BA L414",
+            "vacantes": 12,
+            "matriculados": 1
+          }
+        }
+      }
+    }
+  },
+  "CS5362": {
+    "nombre": "Visión por Computador y Reconocimiento de Patrones",
+    "malla": "CS-2021-1",
+    "tipo_curso": "Electivo",
+    "secciones": {
+      "1": {
+        "numero_seccion": "1",
+        "opciones": {
+          "teoria_00": {
+            "tipo": "Teoría",
+            "codigo_subseccion": "00",
+            "docente": "Mora Cloque, Rensso Victor Hugo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Lun. 09:00 - 11:00"
+            ],
+            "ubicacion": "UTEC-BA L210(30)",
+            "vacantes": 30,
+            "matriculados": 1
+          },
+          "laboratorio_01": {
+            "tipo": "Laboratorio",
+            "codigo_subseccion": "01",
+            "docente": "Mora Cloque, Rensso Victor Hugo",
+            "modalidad": "Presencial",
+            "horarios": [
+              "Jue. 09:00 - 11:00",
+              "Mie. 09:00 - 11:00"
+            ],
+            "ubicacion": "UTEC-BA L210(30)",
+            "vacantes": 30,
+            "matriculados": 1
+          }
+        }
+      }
+    }
+  }
+}
