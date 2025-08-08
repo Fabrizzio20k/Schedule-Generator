@@ -150,15 +150,12 @@ export default function GeneradorHorarios() {
     try {
       console.log('Iniciando exportación...')
 
-      // Crear un clon del elemento para evitar modificar el original
       const clonedElement = horarioRef.current.cloneNode(true) as HTMLElement
 
-      // Limpiar estilos problemáticos
       const cleanStyles = (element: HTMLElement) => {
         element.style.background = '#ffffff'
         element.style.backgroundImage = 'none'
 
-        // Limpiar gradientes problemáticos en elementos hijos
         const gradientElements = element.querySelectorAll('[class*="gradient"]')
         gradientElements.forEach((el: any) => {
           if (el.classList.contains('from-blue-600')) {
@@ -176,10 +173,8 @@ export default function GeneradorHorarios() {
         })
       }
 
-      // Aplicar estilos limpios
       cleanStyles(clonedElement)
 
-      // Crear un contenedor temporal
       const tempContainer = document.createElement('div')
       tempContainer.style.position = 'absolute'
       tempContainer.style.left = '-9999px'
@@ -194,7 +189,6 @@ export default function GeneradorHorarios() {
         allowTaint: false
       })
 
-      // Limpiar el contenedor temporal
       document.body.removeChild(tempContainer)
 
       console.log('Canvas creado exitosamente')
@@ -211,7 +205,6 @@ export default function GeneradorHorarios() {
     } catch (error) {
       console.error('Error detallado al exportar:', error)
 
-      // Fallback: export as text table
       try {
         await exportarHorarioTexto()
       } catch (fallbackError) {
@@ -670,7 +663,7 @@ Generado el: ${new Date().toLocaleDateString('es-PE')}
               <CardContent className="p-0">
                 <ScrollArea className="h-[600px] px-4">
                   {!cursoSeleccionando ? (
-                    <div className="space-y-3 pb-4">
+                    <div className="space-y-2 pb-4">
                       {cursosFiltrados.map(([codigo, curso]) => {
                         const estaSeleccionado = !!horarioSeleccionado[codigo]
                         const tieneConflicto = !estaSeleccionado && verificarConflictoCurso(codigo)
@@ -678,11 +671,11 @@ Generado el: ${new Date().toLocaleDateString('es-PE')}
                         return (
                           <Card
                             key={codigo}
-                            className={`cursor-pointer transition-all duration-200 hover:shadow-md ${estaSeleccionado
-                              ? 'ring-2 ring-blue-500 bg-blue-50'
+                            className={`cursor-pointer transition-all duration-200 ${estaSeleccionado
+                              ? 'ring-2 ring-blue-500 bg-blue-50 shadow-md'
                               : tieneConflicto
-                                ? 'ring-2 ring-red-500 bg-red-50 opacity-60'
-                                : 'hover:shadow-lg hover:scale-[1.02]'
+                                ? 'ring-2 ring-red-500 bg-red-50 opacity-70 hover:opacity-90 hover:shadow-lg hover:ring-red-600'
+                                : 'hover:shadow-lg hover:scale-[1.01] hover:bg-gray-50'
                               }`}
                             onClick={() => {
                               if (estaSeleccionado) {
@@ -693,38 +686,38 @@ Generado el: ${new Date().toLocaleDateString('es-PE')}
                               }
                             }}
                           >
-                            <CardContent className="p-4">
+                            <CardContent className="p-3">
                               <div className="flex justify-between items-start">
                                 <div className="flex-1">
-                                  <div className="flex items-center space-x-2 mb-2">
-                                    <span className="font-semibold text-gray-900">{codigo}</span>
+                                  <div className="flex items-center space-x-2 mb-1">
+                                    <span className="font-bold text-sm text-gray-900">{codigo}</span>
                                     {estaSeleccionado && <Check className="w-4 h-4 text-blue-600" />}
                                     {tieneConflicto && <AlertTriangle className="w-4 h-4 text-red-600" />}
                                   </div>
-                                  <p className="text-sm text-gray-600 mb-2 line-clamp-2">{curso.nombre}</p>
-                                  <div className="flex items-center space-x-2 flex-wrap gap-1">
+                                  <p className="text-xs text-gray-700 mb-2 line-clamp-2 font-medium">{curso.nombre}</p>
+                                  <div className="flex items-center space-x-1 flex-wrap gap-1">
                                     <Badge
                                       variant={curso.tipo_curso === 'Obligatorio' ? 'destructive' : 'secondary'}
-                                      className="text-xs"
+                                      className="text-xs px-1 py-0.5"
                                     >
                                       {curso.tipo_curso}
                                     </Badge>
                                     <span className="text-xs text-gray-500">
-                                      {Object.keys(curso.secciones).length} secciones
+                                      {Object.keys(curso.secciones).length} sec
                                     </span>
                                     {estaSeleccionado && (
                                       <>
-                                        <Badge variant="outline" className="text-xs">
-                                          Sec. {horarioSeleccionado[codigo].seccion}
+                                        <Badge variant="outline" className="text-xs px-1 py-0.5">
+                                          {horarioSeleccionado[codigo].seccion}
                                         </Badge>
-                                        <Badge variant="outline" className="text-xs">
+                                        <Badge variant="outline" className="text-xs px-1 py-0.5">
                                           {horarioSeleccionado[codigo].opciones[horarioSeleccionado[codigo].opcion]?.tipo.split(' ')[0]}
                                         </Badge>
                                       </>
                                     )}
                                   </div>
                                   {tieneConflicto && (
-                                    <p className="text-xs text-red-600 mt-1">Conflicto de horario</p>
+                                    <p className="text-xs text-red-600 mt-1 font-semibold">⚠ Conflicto de horario</p>
                                   )}
                                 </div>
                               </div>
@@ -734,25 +727,25 @@ Generado el: ${new Date().toLocaleDateString('es-PE')}
                       })}
                     </div>
                   ) : (
-                    <div className="space-y-4 pb-4">
-                      <div className="text-center p-2">
-                        <h3 className="font-semibold text-gray-900">{cursoSeleccionando}</h3>
-                        <p className="text-sm text-gray-600">{cursosData[cursoSeleccionando]?.nombre}</p>
+                    <div className="space-y-3 pb-4">
+                      <div className="text-center p-2 bg-gray-50 rounded-lg">
+                        <h3 className="font-bold text-sm text-gray-900">{cursoSeleccionando}</h3>
+                        <p className="text-xs text-gray-600">{cursosData[cursoSeleccionando]?.nombre}</p>
                       </div>
 
                       {Object.entries(cursosData[cursoSeleccionando]?.secciones || {}).map(([numSeccion, seccion]) => {
                         const { teorias, laboratorios } = agruparOpcionesPorTipo(seccion.opciones)
 
                         return (
-                          <Card key={numSeccion} className="border-2">
+                          <Card key={numSeccion} className="border">
                             <CardHeader className="pb-2">
-                              <h4 className="font-semibold text-center">Sección {numSeccion}</h4>
+                              <h4 className="font-semibold text-sm text-center">Sección {numSeccion}</h4>
                             </CardHeader>
-                            <CardContent className="space-y-4">
+                            <CardContent className="space-y-3 p-3">
                               {teorias.length > 0 && (
                                 <div>
-                                  <Badge variant="outline" className="mb-2">Teorías</Badge>
-                                  <div className="space-y-2">
+                                  <Badge variant="outline" className="mb-2 text-xs">Teorías</Badge>
+                                  <div className="space-y-1">
                                     {teorias.map(([keyTeo, teoria]) => {
                                       const tieneConflicto = verificarConflictoOpcion(cursoSeleccionando, numSeccion, keyTeo)
                                       const puedeSeleccionar = laboratorios.length === 0
@@ -763,12 +756,12 @@ Generado el: ${new Date().toLocaleDateString('es-PE')}
                                       return (
                                         <div
                                           key={keyTeo}
-                                          className={`p-2 rounded border text-xs ${estaEnPreview
-                                            ? 'border-purple-300 bg-purple-50 ring-2 ring-purple-200'
+                                          className={`p-2 rounded border text-xs transition-all duration-200 ${estaEnPreview
+                                            ? 'border-purple-400 bg-purple-100 ring-2 ring-purple-300 shadow-md'
                                             : tieneConflicto
-                                              ? 'border-red-300 bg-red-50'
+                                              ? 'border-red-400 bg-red-100 opacity-70 hover:opacity-100 hover:shadow-md hover:ring-2 hover:ring-red-300'
                                               : puedeSeleccionar
-                                                ? 'border-blue-300 bg-blue-50 cursor-pointer hover:bg-blue-100'
+                                                ? 'border-blue-300 bg-blue-50 cursor-pointer hover:bg-blue-100 hover:shadow-md hover:ring-2 hover:ring-blue-300'
                                                 : 'border-gray-200 bg-gray-50'
                                             }`}
                                           onMouseEnter={() => {
@@ -793,13 +786,13 @@ Generado el: ${new Date().toLocaleDateString('es-PE')}
                                             <div className="font-medium">{teoria.tipo} {teoria.codigo_subseccion}</div>
                                             {estaEnPreview && <Eye className="w-3 h-3 text-purple-600" />}
                                           </div>
-                                          <div className="text-gray-600">{teoria.horarios.join(', ')}</div>
-                                          <div className="flex items-center space-x-2 mt-1">
+                                          <div className="text-gray-600 text-xs">{teoria.horarios.join(', ')}</div>
+                                          <div className="flex items-center space-x-1 mt-1 text-xs">
                                             <User className="w-3 h-3" />
-                                            <span>{teoria.docente}</span>
+                                            <span className="truncate">{teoria.docente}</span>
                                           </div>
                                           {tieneConflicto && (
-                                            <Badge variant="destructive" className="mt-1 text-xs">Conflicto</Badge>
+                                            <Badge variant="destructive" className="mt-1 text-xs">⚠ Conflicto</Badge>
                                           )}
                                         </div>
                                       )
@@ -810,8 +803,8 @@ Generado el: ${new Date().toLocaleDateString('es-PE')}
 
                               {laboratorios.length > 0 && (
                                 <div>
-                                  <Badge className="mb-2">Laboratorios</Badge>
-                                  <div className="space-y-2">
+                                  <Badge className="mb-2 text-xs">Laboratorios</Badge>
+                                  <div className="space-y-1">
                                     {laboratorios.map(([keyLab, lab]) => {
                                       const tieneConflicto = verificarConflictoOpcion(cursoSeleccionando, numSeccion, keyLab)
                                       const estaEnPreview = opcionPrevisualizando?.codigo === cursoSeleccionando &&
@@ -821,11 +814,11 @@ Generado el: ${new Date().toLocaleDateString('es-PE')}
                                       return (
                                         <div
                                           key={keyLab}
-                                          className={`p-2 rounded border text-xs cursor-pointer ${estaEnPreview
-                                            ? 'border-purple-300 bg-purple-50 ring-2 ring-purple-200'
+                                          className={`p-2 rounded border text-xs cursor-pointer transition-all duration-200 ${estaEnPreview
+                                            ? 'border-purple-400 bg-purple-100 ring-2 ring-purple-300 shadow-md'
                                             : tieneConflicto
-                                              ? 'border-red-300 bg-red-50 opacity-60'
-                                              : 'border-green-300 bg-green-50 hover:bg-green-100'
+                                              ? 'border-red-400 bg-red-100 opacity-70 hover:opacity-100 hover:shadow-md hover:ring-2 hover:ring-red-300'
+                                              : 'border-green-300 bg-green-50 hover:bg-green-100 hover:shadow-md hover:ring-2 hover:ring-green-300'
                                             }`}
                                           onMouseEnter={() => {
                                             setOpcionPrevisualizando({
@@ -847,17 +840,17 @@ Generado el: ${new Date().toLocaleDateString('es-PE')}
                                             <div className="font-medium">{lab.tipo} {lab.codigo_subseccion}</div>
                                             {estaEnPreview && <Eye className="w-3 h-3 text-purple-600" />}
                                           </div>
-                                          <div className="text-gray-600">{lab.horarios.join(', ')}</div>
-                                          <div className="flex items-center space-x-2 mt-1">
+                                          <div className="text-gray-600 text-xs">{lab.horarios.join(', ')}</div>
+                                          <div className="flex items-center space-x-1 mt-1 text-xs">
                                             <User className="w-3 h-3" />
-                                            <span>{lab.docente}</span>
+                                            <span className="truncate">{lab.docente}</span>
                                           </div>
-                                          <div className="flex items-center space-x-2">
+                                          <div className="flex items-center space-x-1 text-xs">
                                             <MapPin className="w-3 h-3" />
-                                            <span>{lab.ubicacion}</span>
+                                            <span className="truncate">{lab.ubicacion}</span>
                                           </div>
                                           {tieneConflicto && (
-                                            <Badge variant="destructive" className="mt-1 text-xs">Conflicto</Badge>
+                                            <Badge variant="destructive" className="mt-1 text-xs">⚠ Conflicto</Badge>
                                           )}
                                         </div>
                                       )
@@ -884,18 +877,18 @@ Generado el: ${new Date().toLocaleDateString('es-PE')}
               <CardContent>
                 <div className="overflow-x-auto">
                   <div ref={horarioRef} className="grid grid-cols-7 gap-1 min-w-[800px] bg-white p-4 rounded-lg">
-                    <div className="p-3 bg-gray-100 rounded-lg font-semibold text-center text-sm">
+                    <div className="p-2 bg-gray-100 rounded font-semibold text-center text-sm">
                       Hora
                     </div>
                     {DIAS.map(dia => (
-                      <div key={dia} className="p-3 bg-gray-100 rounded-lg font-semibold text-center text-sm">
+                      <div key={dia} className="p-2 bg-gray-100 rounded font-semibold text-center text-sm">
                         {dia}
                       </div>
                     ))}
 
                     {HORAS.map(hora => (
                       <div key={hora} className="contents">
-                        <div className="p-3 bg-gray-50 rounded-lg text-center text-sm font-medium border">
+                        <div className="p-2 bg-gray-50 rounded text-center text-sm font-medium border">
                           {hora}:00
                         </div>
                         {DIAS.map((_, diaIndex) => {
@@ -904,22 +897,22 @@ Generado el: ${new Date().toLocaleDateString('es-PE')}
                           return (
                             <div
                               key={`${diaIndex}-${hora}`}
-                              className="min-h-[60px] border border-gray-200 rounded-lg p-1 relative"
+                              className="min-h-[80px] border border-gray-200 rounded p-0.5 relative"
                             >
                               {clasesEnEstaHora.map((clase, index) => (
                                 clase.esInicio && (
                                   <div
                                     key={index}
-                                    className={`absolute inset-1 rounded-md p-2 text-xs text-white shadow-sm transition-all ${clase.esPreview
+                                    className={`absolute inset-0.5 rounded p-1 text-xs text-white shadow-sm transition-all cursor-pointer ${clase.esPreview
                                       ? clase.tieneConflicto
-                                        ? 'bg-gradient-to-r from-red-300 to-red-400 opacity-60 border-2 border-red-500'
-                                        : 'bg-gradient-to-r from-gray-400 to-gray-500 opacity-70 border-2 border-gray-600'
+                                        ? 'bg-gradient-to-r from-red-400 to-red-500 opacity-80 border-2 border-red-600 ring-2 ring-red-300 animate-pulse'
+                                        : 'bg-gradient-to-r from-gray-500 to-gray-600 opacity-80 border-2 border-gray-700 ring-2 ring-gray-400'
                                       : clase.tipo.includes('Teoría')
-                                        ? 'bg-gradient-to-r from-blue-500 to-blue-600 cursor-pointer hover:opacity-80'
-                                        : 'bg-gradient-to-r from-green-500 to-green-600 cursor-pointer hover:opacity-80'
+                                        ? 'bg-gradient-to-r from-blue-500 to-blue-600 hover:opacity-90 hover:shadow-lg'
+                                        : 'bg-gradient-to-r from-green-500 to-green-600 hover:opacity-90 hover:shadow-lg'
                                       }`}
                                     style={{
-                                      height: `${clase.duracion * 60 - 8}px`,
+                                      height: `${clase.duracion * 80 - 4}px`,
                                       zIndex: clase.esPreview ? 5 : 10
                                     }}
                                     onClick={() => {
@@ -927,20 +920,36 @@ Generado el: ${new Date().toLocaleDateString('es-PE')}
                                         eliminarCurso(clase.codigo)
                                       }
                                     }}
-                                    title={clase.esPreview ? 'Vista previa' : 'Click para eliminar'}
+                                    title={clase.esPreview ? 'Vista previa - ' + clase.nombre : clase.nombre + ' - Click para eliminar'}
                                   >
-                                    <div className="font-semibold truncate">
-                                      {clase.codigo} {clase.esPreview && '(Vista previa)'}
+                                    <div className="font-bold text-xs truncate">
+                                      {clase.codigo}
                                     </div>
-                                    <div className="text-xs opacity-90 truncate">
-                                      {clase.tipo} - Sec. {clase.seccion}
+                                    <div className="text-xs opacity-90 leading-tight" style={{
+  overflow: 'hidden',
+  display: '-webkit-box',
+  WebkitLineClamp: 2,
+  WebkitBoxOrient: 'vertical',
+  lineHeight: '1.1'
+}}>
+  {clase.nombre}
+</div>
+                                    <div className="text-xs opacity-80 truncate">
+                                      {clase.tipo.split(' ')[0]} - Sec.{clase.seccion}
                                     </div>
-                                    <div className="text-xs opacity-75 truncate flex items-center">
-                                      <MapPin className="w-3 h-3 mr-1" />
+                                    <div className="text-xs opacity-80 truncate flex items-center">
+                                      <MapPin className="w-2 h-2 mr-1 flex-shrink-0" />
                                       {clase.ubicacion.split(' ')[1] || clase.ubicacion}
                                     </div>
                                     {clase.esPreview && clase.tieneConflicto && (
-                                      <div className="text-xs opacity-90 font-bold">¡CONFLICTO!</div>
+                                      <div className="text-xs opacity-95 font-bold text-center mt-1 bg-red-600 rounded px-1">
+                                        ¡CONFLICTO!
+                                      </div>
+                                    )}
+                                    {clase.esPreview && !clase.tieneConflicto && (
+                                      <div className="text-xs opacity-90 text-center mt-1 bg-gray-700 rounded px-1">
+                                        Vista previa
+                                      </div>
                                     )}
                                   </div>
                                 )
